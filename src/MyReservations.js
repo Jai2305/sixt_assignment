@@ -37,6 +37,22 @@ const MyReservations = ()=>{
             <Filter criteria='To Location'/>
             <Filter criteria='Booking Channel'/>
             </div>
+            <table id="reservation-table">
+                <tr>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>From Location</th>
+                    <th>To Location</th>
+                    <th>Booking Channel</th>
+                </tr>
+                <tr>
+                    <td>Emil</td>
+                    <td>Tobias</td>
+                    <td>Linus</td>
+                    <td>Linus</td>
+                    <td>Linus</td>
+                </tr>
+            </table>
         </div>
     )
 }
