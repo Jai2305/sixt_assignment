@@ -6,18 +6,26 @@
 .filter{
     margin-left:40px ;
     margin-top: 40px;
-    width:200px;
+    width:180px;
 }
 .filter-list{
     position:relative ;
-    align-items: center;
+    text-align: center;
     display:none;
     position: absolute;
+    font-size: large;
+    width:200px ;
     z-index: 20;
+    background-color: #343a45;
+    color:white ;
+}
+.filter-list>div{
+    margin-top:5px ;
+    margin-bottom: 2px;
 }
 .filter-list>div:hover{
-    background-color:rgb(112, 45, 45) ;
-    color:rgb(112, 45, 45) ;
+    background-color: #666B85;
+    color:white ;
     cursor: pointer;
 }
 #filter-btn{
