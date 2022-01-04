@@ -4,11 +4,13 @@ import {Link} from  'react-router-dom' ;
 const NavBar =()=> {
 return(    
     <div id="nav" >
-        <div> My Reservations App</div>
-        <button> Home</button>
-        <button> My Reservations </button>
-        <button> Reservations Details </button>
-        <button> My Profile </button>
+        <div id="title"> My Reservations App</div>
+        <ul id="menu">
+        <li> Home</li>
+        <li> My Reservations </li>
+        <li> Reservations Details </li>
+        <li> My Profile </li>
+        </ul>
     </div>
 )   
 }
