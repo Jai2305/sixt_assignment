@@ -1,0 +1,15 @@
+#footer button{
+    font-size: x-large;
+    bottom:10px ;
+    right:100px ;
+    position:fixed ;
+    border:none ;
+    background-color:rgba(19, 153, 173) ;
+    border-radius:15px ;
+    padding:10px 15px 10px 15px ;
+    color:white ;
+}
+#footer button:hover{
+    cursor:pointer ;
+    background-color:rgba(9, 97, 110) ;
+}
