@@ -1,0 +1,80 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgba(187, 245, 245, 0.109);
+  color: #f2f2f2;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.container-vr {
+  width: 90%;
+  margin: auto;
+}
+
+.cards-container {
+  display: flex;
+  border-radius: 6px;
+  color: #333;
+  background: #eee;
+  padding: 1rem;
+  box-shadow: 0 0 1rem #000 inset;
+  overflow-x: auto;
+  position: relative;
+  width:max-content ;
+}  
+  ::-webkit-scrollbar 
+  {
+    display: none;}
+
+
+.card-vr {
+  flex: 1 0 250px;
+  box-shadow: 0 1px 1rem -4px #000;
+  background: #fff;
+  margin: 1rem;
+  overflow: hidden;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+}
+  .card-vr img {
+    width: 300px;
+    height: 250px;
+    object-fit: center;
+    margin-left:40px ;
+    margin-top :10px ;
+  }
+  
+  .card-vr:hover {
+    box-shadow: 0 4px 1rem -4px #000;
+    transform: translateY(-3px);
+  }
+
+
+.card-vr-content {
+  padding: 1rem;
+}
+
+@media screen and (max-width: 625px) {
+  .container-vr {
+    width: 100%
+  }
+  
+  .cards-container {
+    padding: .5rem;
+    width:max-content ;
+  }
+  
+  .card-vr {
+    margin: .5rem;
+  }
+}
+.container-vr{
+  position: absolute;
+  top: 200px;
+  left:70px ;
+}
